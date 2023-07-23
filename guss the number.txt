@@ -1,0 +1,16 @@
+
+
+import random
+rand =random.randint(1,20)
+found =False
+max_expec=5
+times=0
+while not found  max_expec > times:
+    user_number=int(input("enter the number u excpected from  1 to 20 ^_^"))
+    times+=1
+    if user_number> rand:
+        print ("wrong! pick smaller number :(")
+    elif user_number < rand:
+        print ("wrong! pick bigger number :(")
+    else :
+        print ("Nice!! that's the true number ;)")
