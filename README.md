@@ -1,1 +1,1 @@
-##It's a simple code to predect the number
+## It's a simple code to predect the number
